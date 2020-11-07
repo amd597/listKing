@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+*{
+    font-family:'Quicksand', sans-serif;
+    padding: 0;
+}
+img{
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 100px;
+    text-shadow:  2px 2px 5px rgba(0, 0, 0, 0.468);
+
+}
+ul li{
+    list-style: none;
+    text-transform: capitalize;
+    font-family: 'Parisienne', cursive;    
+    font-size: 30px;    
+    margin: 1%;
+    border: 3px solid red;
+    padding: 10px;
+    width: auto;
+    height: 50px;
+    border-radius: 5px;
+   
+    
+}
