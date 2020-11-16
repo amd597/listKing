@@ -1,16 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 *{
-    font-family:'Quicksand', sans-serif;
+    font-family:'Poiret One', cursive;
     padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #454645;
+
 }
 img{
-    max-width: 20%;
+    /* max-width: 20%; */
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: #454645;
+    padding-top: 5%;
+    padding-bottom: 5%;
     
 
 }
@@ -18,8 +24,11 @@ img{
 h1{
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 100px;
-    text-shadow:  2px 2px 5px rgba(0, 0, 0, 0.468);
+    /* text-shadow: 100px;
+    text-shadow:  2px 2px 5px rgba(0, 0, 0, 0.468); */
+    color: #454645;
+    font-size: 60px;
+    font-weight: 400;
 
 }
 ul li{
