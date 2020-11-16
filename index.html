@@ -10,7 +10,7 @@
     <header>
         <img src="./kinglogo.png" alt="logo">
     </header>
-    <div>
+    <div id='main'>
         <h1>Buy groceries</h1>
         <ul>
             <li class="one" > fresh figs </li>
@@ -18,7 +18,13 @@
             <li class="three" > honey </li>
             <li class="four" > vinegar </li>
         </ul>
-        <script src="js/list.js"></script>
+        <div id="newItemButton"><button href="#" id="showForm">new item</button></div>
+      <form id="newItemForm">
+        <input type="text" id="itemDescription" placeholder="Add description" />
+        <input type="submit" id="add" value="add items" />
+      </form>
+         <script src="./jquery-1.11.0.js"></script>    
+        <script src="./list.js"></script>
     </div>
     
 </body>
