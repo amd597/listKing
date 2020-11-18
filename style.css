@@ -27,7 +27,7 @@ h1{
     /* text-shadow: 100px;
     text-shadow:  2px 2px 5px rgba(0, 0, 0, 0.468); */
     color: #454645;
-    font-size: 60px;
+    font-size:300%;
     font-weight: 400;
 
 }
@@ -38,12 +38,14 @@ ul li{
     color: black;  
     font-size: 30px;    
     margin: 1%;
-    border: 1px solid  #454645;
+    border: none;
     padding: 10px;
     width: auto;
     height: 50px;
     border-radius: 5px;
     background-color: white;
+    box-shadow: 5px 10px 8px 2px #888888;
+    
    
     
 }
@@ -51,7 +53,7 @@ body{
     background-color: #f3f3f3;
 }
 
-input[type='submit'], a.add, button, a.show {
+/* input[type='submit'], a.add, button, a.show {
     background-color: white;
     color: #fabc2a;
     border-radius: 8px;
@@ -61,10 +63,29 @@ input[type='submit'], a.add, button, a.show {
     font-family: 'Oswald', 'Futura', sans-serif;
     font-size: 18px;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: uppercase; */
+    
   
 }
+input[type='text']:focus, input[type='password']:focus, textarea:focus {
+    border: 1px solid #fff;
+    background-color: #fff;
+    outline: none;}
 
 #newItemButton{
-    padding-left: 80%;
+    
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 99;
+    border: none;
+    background-color: white;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+    background-image: url(./basket.png);
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
 }
