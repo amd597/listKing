@@ -26,7 +26,7 @@ h1{
     text-transform: uppercase;
     /* text-shadow: 100px;
     text-shadow:  2px 2px 5px rgba(0, 0, 0, 0.468); */
-    color: #454645;
+    color: #fabc2a;
     font-size:300%;
     font-weight: 400;
 
@@ -53,27 +53,8 @@ body{
     background-color: #f3f3f3;
 }
 
-/* input[type='submit'], a.add, button, a.show {
-    background-color: white;
-    color: #fabc2a;
-    border-radius: 8px;
-    border: 3px solid #fabc2a;
-    padding: 6px 10px;
-    margin-top: 10px;
-    font-family: 'Oswald', 'Futura', sans-serif;
-    font-size: 18px;
-    text-decoration: none;
-    text-transform: uppercase; */
-    
-  
-}
-input[type='text']:focus, input[type='password']:focus, textarea:focus {
-    border: 1px solid #fff;
-    background-color: #fff;
-    outline: none;}
 
 #newItemButton{
-    
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -89,3 +70,34 @@ input[type='text']:focus, input[type='password']:focus, textarea:focus {
     background-size: 60%;
     background-repeat: no-repeat;
 }
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 1%;
+    display: inline-block;
+    border: 1px solid #fabc2a;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: larger;
+    
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: #fabc2a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: larger;
+    text-transform: uppercase;
+    margin: 1%;
+    
+} 
+input[type=text]:focus {
+    outline: none;
+    
+  }
