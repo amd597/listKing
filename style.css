@@ -26,7 +26,7 @@ h1{
     text-transform: uppercase;
     /* text-shadow: 100px;
     text-shadow:  2px 2px 5px rgba(0, 0, 0, 0.468); */
-    color: #fabc2a;
+    color: #eba80e;
     font-size:300%;
     font-weight: 400;
 
@@ -37,7 +37,7 @@ ul li{
     font-family: 'Poiret One', cursive;  
     color: black;  
     font-size: 30px;    
-    margin: 1%;
+    margin: 2%;
     border: none;
     padding: 10px;
     width: auto;
@@ -55,12 +55,12 @@ body{
 
 
 #newItemButton{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     border-radius: 50%;
     z-index: 99;
     border: none;
-    background-color: white;
+    background-color: #eba80e;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -72,29 +72,30 @@ body{
 }
 
 input[type=text] {
-    width: 90%;
+    width: 50%;
     padding: 12px 20px;
     margin-bottom: 1%;
     display: inline-block;
-    border: 1px solid #fabc2a;
+    border: 1px solid #eba80e;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: larger;
-    margin-left: 5%;
+    margin-left: 25%;
     
 }
 
 input[type=submit]{
-    width: 90%;
-    background-color: #fabc2a;
+    width: 50%;
+    background-color: #eba80e;
     color: white;
     padding: 14px 20px;
-    margin-left: 5%;
+    margin-left: 25%;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: larger;
     text-transform: uppercase;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
     
     
 } 
