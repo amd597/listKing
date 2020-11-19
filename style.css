@@ -5,7 +5,7 @@
     margin: 0;
 }
 header{
-    background-color: #454645;
+    background-color: #27187E;
 
 }
 img{
@@ -14,7 +14,7 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #454645;
+    background-color:#27187E;
     padding-top: 5%;
     padding-bottom: 5%;
     
@@ -26,7 +26,7 @@ h1{
     text-transform: uppercase;
     /* text-shadow: 100px;
     text-shadow:  2px 2px 5px rgba(0, 0, 0, 0.468); */
-    color: orangered;
+    color:#27187E ;
     font-size:300%;
     font-weight: 400;
 
@@ -60,7 +60,7 @@ body{
     border-radius: 50%;
     z-index: 99;
     border: none;
-    background-color: orangered;
+    background-color: #F1F2F6;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -76,7 +76,7 @@ input[type=text] {
     padding: 12px 20px;
     margin-bottom: 1%;
     display: inline-block;
-    border: 1px solid orangered;
+    border: 1px solid #758BFD;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: larger;
@@ -86,7 +86,7 @@ input[type=text] {
 
 input[type=submit]{
     width: 50%;
-    background-color: orangered;
+    background-color: #758BFD;
     color: white;
     padding: 14px 20px;
     margin-left: 25%;
