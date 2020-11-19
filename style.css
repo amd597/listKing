@@ -26,7 +26,7 @@ h1{
     text-transform: uppercase;
     /* text-shadow: 100px;
     text-shadow:  2px 2px 5px rgba(0, 0, 0, 0.468); */
-    color: #eba80e;
+    color: orangered;
     font-size:300%;
     font-weight: 400;
 
@@ -60,7 +60,7 @@ body{
     border-radius: 50%;
     z-index: 99;
     border: none;
-    background-color: #eba80e;
+    background-color: orangered;
     position: fixed;
     bottom: 20px;
     right: 30px;
@@ -76,7 +76,7 @@ input[type=text] {
     padding: 12px 20px;
     margin-bottom: 1%;
     display: inline-block;
-    border: 1px solid #eba80e;
+    border: 1px solid orangered;
     border-radius: 4px;
     box-sizing: border-box;
     font-size: larger;
@@ -86,13 +86,12 @@ input[type=text] {
 
 input[type=submit]{
     width: 50%;
-    background-color: #eba80e;
+    background-color: orangered;
     color: white;
     padding: 14px 20px;
     margin-left: 25%;
     border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    border-radius: 4px;  
     font-size: larger;
     text-transform: uppercase;
     box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
